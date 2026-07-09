@@ -25,6 +25,8 @@ StockPilot solves these challenges by combining a robust, concurrent Spring Boot
 
 StockPilot is structured around a **layered architecture** (Controller-Service-Repository) featuring domain entities mapped via Hibernate JPA to a MySQL schema.
 
+![System Architecture](docs/architecture.png)
+
 ```mermaid
 graph TD
     A[React Client] -->|Secured HTTP + JWT Bearer| B[REST Controller Layer]
@@ -34,6 +36,9 @@ graph TD
 ```
 
 ### 1. Database Model & Relationships
+
+![Entity Relationship Diagram](docs/er-diagram.png)
+
 The relational database contains seven primary entities interacting dynamically:
 *   **Warehouse:** Holds physical locations and active capacity constraints.
 *   **Product:** The catalog items, including pricing and low-stock threshold triggers.
@@ -55,6 +60,10 @@ If an operator tries to confirm a stock reserve while another operator is editin
 Authentication is handled via stateless Bearer JSON Web Tokens:
 *   **`ADMIN` Role:** Access to configuration panels, creating warehouses, registering products, updating suppliers, and approving inter-depot transfers.
 *   **`STAFF` Role:** View telemetry maps, request reservations, view logs, and track sales orders.
+
+### 4. REST API Request Flow
+
+![REST API Request Flow](docs/api-flow.png)
 
 ---
 
