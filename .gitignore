@@ -1,0 +1,30 @@
+# Node/React dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/yarn-error.log
+frontend/npm-debug.log
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Maven Target (Java)
+backend/target/
+backend/.mvn/
+backend/*.jar
+backend/*.war
+
+# Logs
+*.log
+backend/logs/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

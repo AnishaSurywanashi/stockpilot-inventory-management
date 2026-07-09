@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/stockpilot?createDatabaseIfNotExist=true
+    username: root
+    password: MYSQLA@99
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+app:
+  jwt:
+    secret: change-this-to-a-long-random-secret-key-at-least-256-bits-which-is-secure-and-strong-enough
+    expiration-ms: 86400000 # 24 hours
+
+logging:
+  level:
+    org.springframework.security: INFO
+    org.hibernate.SQL: DEBUG
