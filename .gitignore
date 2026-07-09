@@ -28,3 +28,8 @@ backend/logs/
 *.sw?
 .DS_Store
 Thumbs.db
+
+# Project guides & temporary scripts
+StockPilot_Complete_Guide.pdf
+StockPilot_Complete_Guide.txt
+extract_pdf.py
