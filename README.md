@@ -44,10 +44,7 @@ StockPilot_Project/
 
 ### 1. Database Setup (MySQL)
 1. Ensure your local MySQL server is started (`port: 3306`).
-2. The application is configured to connect to database schema `stockpilot` (it will auto-create if it does not exist) using the following credentials:
-   *   **Username:** `root`
-   *   **Password:** `MYSQLA@99`
-     *(These configurations can be modified in `backend/src/main/resources/application.yml`)*
+2. The application is configured to connect to database schema `stockpilot` (it will auto-create if it does not exist) using your local MySQL credentials. The settings can be verified and modified in `backend/src/main/resources/application.yml`.
 
 ### 2. Startup Backend Server (Spring Boot)
 Open a terminal in the `backend/` directory and execute:
