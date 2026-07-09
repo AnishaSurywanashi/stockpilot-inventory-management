@@ -1,4 +1,4 @@
-# 🛰️ StockPilot — Enterprise Warehouse & Inventory Telemetry Platform
+# 🛰️ StockPilot — Enterprise Inventory & Warehouse Management Platform
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-brightgreen?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18.x-blue?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
@@ -10,7 +10,7 @@
 
 ## 📋 Project Overview & Business Logic
 
-**StockPilot** is an enterprise-grade cloud inventory management solution designed to handle operations across multiple warehouse depots. In logistics, managing real-time stock levels, avoiding **double-allocations**, and ensuring **transactional safety during stock movements** are critical challenges. 
+**StockPilot** is an enterprise-grade  inventory management solution designed to handle operations across multiple warehouse depots. In logistics, managing real-time stock levels, avoiding **double-allocations**, and ensuring **transactional safety during stock movements** are critical challenges. 
 
 StockPilot solves these challenges by combining a robust, concurrent Spring Boot 3 backend with a high-fidelity, interactive space-themed React telemetry dashboard.
 
